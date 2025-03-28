@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(42, 42, 114);
+  background-image: linear-gradient(315deg, rgb(42, 42, 114) 0%, rgb(46, 42, 104) 74%);
+  font-family: 'Montserrat', sans-serif;
+}
+.main{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top:70px;
+}
+#inputSearch{
+  margin:0 auto;
+}
+.inp{
+  border:solid;
+  border-radius:10px;
+  border:transparent;
+  padding:20px;
+  background-color: rgb(76, 40, 133);
+  color:white;
+}
+.inp:focus{
+  outline:none;
+}
+.inp::placeholder{
+  color:white;
+  font-size:15px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.repo {
+  background-color: #2a2a72;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
